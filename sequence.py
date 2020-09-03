@@ -6,11 +6,11 @@ tala3 = 3
 
 for i in range(1,n+1):
     if result <= 3:
-        print(result,end=', ')
+        print(result)
         result += 1
     else:
         result = tala1 + tala2+ tala3
         tala1 = tala2
         tala2 = tala3
         tala3 = result
-        print (result, end=', ')
+        print (result)
